@@ -1,0 +1,26 @@
+/* Write your CSS code here */
+.nav-header{
+    height:25vh;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+}
+.header-container{
+     display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    border-radius:10px;
+    border-width: 10px;
+    border-color:#6d396b;
+}
+.logo-image{
+    width:25px;
+}
+.nav-link{
+    color:black;
+    font-weight:bold;
+    font-size:18px;
+    font-family:roboto;
+}

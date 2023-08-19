@@ -1,0 +1,22 @@
+/* Write your CSS code here */
+.notfound-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+}
+.notfound-image {
+  width: 150px;
+}
+.notfound-heading {
+  font-size: 25px;
+  font-weight: 500;
+  color: #551e53;
+}
+
+@media screen and (min-width: 768px) {
+  .notfound-heading {
+    font-size: 36px;
+  }
+}
